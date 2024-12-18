@@ -1,0 +1,61 @@
+.singnin {
+    margin-left:middle;
+    font-style: normal;
+    background-image: url('');
+}
+.content {
+    width: 250px;
+    margin: 2px;
+    padding: 20px;
+    border-radius: 10px;
+   /*  background-color: #a4d6d1; */
+   background-image: url('bc.jpg');
+   
+  
+
+
+}
+.login-button {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.login-button {
+    background-color: rgb(141, 199, 222) ;
+}
+.button {
+    background-color: rgb(188, 221, 80);
+    color: green;
+    border-color: green;
+    border-width: 1px;
+    height: 40px;
+    width: 70px;
+    border-radius: 30px;
+    box-shadow: 30px 30px 30px rgba(red, green, 0.15);
+}
+.fullpage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cedee1;
+    font-family: Arial, sans-serif;
+    font-family: 'Courier New', monospace;
+    font-size:x-large;
+    background-image: url('bg.png');
+
+}
+.hading{
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    margin-left: auto;
+    margin-top: 20px;
+}

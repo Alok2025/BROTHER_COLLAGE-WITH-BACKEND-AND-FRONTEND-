@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registion</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("as1.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            background-image:url("as.jpg") ;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 900px;
+            height: 850px;
+            border: 5px;
+            border-color: green;
+            margin-top: 15%;
+            opacity: 0.7;    /* iamge transparent*/
+        }
+        .head{
+            width: 40%;
+            height: 50px;
+            border: solid rgb(248, 245, 245);
+            background: linear-gradient(rgb(165, 228, 70), pink);
+            border-radius: 30px;
+            margin-left: 32%;
+
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color:rgb(140, 81, 81);
+        }
+        
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #eccc;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: transparent;
+            color: red;
+            font-size: medium;
+            font-style: inherit;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin: 15px 0 15px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+            margin-top: 5px;
+        }
+
+        .but{
+
+            height: 30px;
+            width: 300px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="head"> <h2>❤️Registion your account❤️</h2></div>
+        <form action="#" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for ="name">Frist Name</label>
+            <input type="text" id="name" name="frist name" required>
+
+            <label for ="name">Last Name</label>
+            <input type="text" id="name" name="last name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Create Account</button>
+
+            <button type="reset">clear</button>
+        </form>
+    </div>
+    <div class="container2">
+</body>
+</html>
